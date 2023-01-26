@@ -1,0 +1,28 @@
+@import url('keyframes.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    /* -webkit-animation: 2s alternate back_anim;
+    -o-animation: 2s alternate back_anim;
+    -moz-animation: 2s alternate back_anim;
+    animation: 2s alternate back_anim; */
+/* 
+    -webkit-animation: 2s infinite back_anim;
+    -o-animation: 2s infinite back_anim;
+    -moz-animation: 2s infinite back_anim;
+    animation: 2s infinite back_anim; */
+    -webkit-animation: 5s infinite back_anim;
+    -o-animation: 5s infinite back_anim;
+    -moz-animation: 5s infinite back_anim;
+    animation: 5s infinite back_anim;
+    -webkit-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    animation-delay: 4s;
+
+    
+}

@@ -1,0 +1,14 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    width: 100%;
+    height: 768px;
+    background: -webkit-linear-gradient(left,black,lightgray);
+    background: -moz-linear-gradient(left,black,lightgray);
+    background: -o-linear-gradient(left,black,lightgray);
+    background: -c-linear-gradient(left,black,lightgray);
+    background:linear-gradient(to right,black,lightgray);
+}

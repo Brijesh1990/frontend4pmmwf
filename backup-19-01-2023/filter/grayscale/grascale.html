@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .img-blur 
+        {
+            width: 30%;
+            height: 250px;
+            margin-left: 35%;
+            margin-top: 5%;
+            border: double 5px black;
+            -webkit-filter: contrast(10%);
+            -moz-filter: contrast(10%);
+            filter:contrast(10%) !important;
+            background: url('images/1.webp') no-repeat;
+            background-size: 100% 100%;
+         
+        }
+        .img-blur p 
+        {
+            position: absolute;
+            margin-top: 15%;
+            word-wrap: break-word;
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            color: white;
+        }
+        .img-blur:hover
+        {
+             border-radius: 50%;
+             transition: 2s ease all;
+             background: url('images/amith.jpg') no-repeat;
+             background-size: 100% 100%;
+             -webkit-filter: contrast(100%);
+            -moz-filter: contrast(100%);
+            filter:contrast(100%) !important;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="img-blur">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam quae aliquam iste mollitia laborum, nemo eaque odio inventore aliquid ad. A vitae atque ipsum repudiandae quos corporis aliquid impedit!</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    width: 100%;
+    height: 768px;
+    background: -webkit-linear-gradient(left,black,lightgray);
+    background: -moz-linear-gradient(left,black,lightgray);
+    background: -o-linear-gradient(left,black,lightgray);
+    background: -c-linear-gradient(left,black,lightgray);
+    background:linear-gradient(to right,black,lightgray);
+}
+
+.border-radius 
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border: solid 10px black;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -o-border-radius:20px;
+    border-radius:20px;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+
+.border-radius1 
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border: solid 10px black;
+    -webkit-border-radius:0px 85px 0px 85px;
+    -moz-border-radius:0px 85px 0px 85px;
+    -o-border-radius:0px 85px 0px 85px;
+    border-radius:0px 85px 0px 85px;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+
+.border-radius2 
+{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: solid 10px black;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+    margin-top: 3%;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 800px;
+    /* background: -webkit-linear-gradient(left,black,gray);
+    background: -moz-linear-gradient(left,black,gray);
+    background: -o-linear-gradient(left,black,gray);
+    background:linear-gradient(to right,black,gray); */
+
+
+    background: -webkit-radial-gradient(left,black 50%,gray 50%);
+    background: -moz-radial-gradient(left,black 50%,gray 50%);
+    background: -o-radial-gradient(left,black 50%,gray 50%);
+    background:radial-gradient(to right,black 50%,gray 50%);
+}
